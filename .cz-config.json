@@ -1,0 +1,55 @@
+{
+  "types": [
+    {
+      "value": "build",
+      "name": "build: Perubahan yang memengaruhi sistem build atau external dependencies"
+    },
+    {
+      "value": "ci",
+      "name": "ci: Perubahan pada file dan skrip konfigurasi CI "
+    },
+    {
+      "value": "chore",
+      "name": "chore: Perubahan yang tidak mengubah source code atau test, misal perubahan pada proses build, auxiliary tools, libraries"
+    },
+    {
+      "value": "docs",
+      "name": "docs: Untuk perubahan dokumentasi"
+    },
+    {
+      "value": "feat",
+      "name": "feat: Untuk fitur baru"
+    },
+    {
+      "value": "fix",
+      "name": "fix: Untuk Bug fix"
+    },
+    {
+      "value": "perf",
+      "name": "perf: Perubahan kode yang meningkatkan performa"
+    },
+    {
+      "value": "refactor",
+      "name": "refactor: Perubahan kode yang tidak memperbaiki bug atau menambahkan fitur"
+    },
+    {
+      "value": "revert",
+      "name": "revert: Mengembalikan perubahan yang lalu"
+    },
+    {
+      "value": "style",
+      "name": "style: Perubahan yang tidak memberikan efek pada kode "
+    },
+    {
+      "value": "test",
+      "name": "test: Menambah test atau mengubah test"
+    }
+  ],
+  "messages": {
+    "type": "Select the type of change that you're committing:",
+    "subject": "Write a short description:",
+    "body": "Provide a longer description of the change (optional). Use \"|\" to break new line:",
+    "footer": "List any issues closed by this change (optional). E.g.: #31, #34:"
+  },
+  "subjectLimit": 100
+}
